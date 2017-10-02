@@ -4,7 +4,7 @@ pipeline {
     stage('step A') {
       steps {
         sh 'echo "JEES"'
-        sh 'echo "Joo"'
+        sh 'echo "Joo master"'
       }
     }
   }
